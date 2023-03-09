@@ -1,4 +1,13 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+* {
+    font-family: GmarketSansMedium, sans-serif;
+}
 
 nav ul {
     margin: 0;
@@ -11,7 +20,7 @@ nav ul {
 nav ul li {
     list-style: none;
     height: 50px;
-    margin: 15px;
+    margin: 15px 0 0 30px;
     float: left;
     color: white;
 }
@@ -31,12 +40,12 @@ main {
 }
 
 h1 {
-    margin: 10px 10px;
+    margin: 10px 0px 10px;
     font-size: 50px;
 }
 
 .profile {
-    margin: 20px 0 20px 0;
+    margin: 10px 0 20px 0;
     width: 350px;
     height: 420px;
     overflow: hidden;
@@ -86,4 +95,8 @@ footer {
 
 footer p {
     margin: 0 0 0 25px;
+}
+
+.empty {
+    margin-top: 200px;
 }
