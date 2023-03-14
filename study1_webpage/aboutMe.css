@@ -9,6 +9,10 @@
     font-family: GmarketSansMedium, sans-serif;
 }
 
+.btn {
+    text-decoration: none;
+}
+
 nav ul {
     margin: 0;
     padding: 0;
